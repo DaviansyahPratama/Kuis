@@ -1,0 +1,18 @@
+/* File: public/css/custom-style.css */
+
+.letter {
+  /* Tentukan lebar maksimum logo */
+  max-width: 50px; /* Anda bisa mengubah angka ini sesuai keinginan */
+
+  /* Atur tinggi secara otomatis agar rasio gambar tidak rusak (gepeng) */
+  height: auto;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('assets/fonts/Roboto-VariableFont_wdth,wght.ttf');
+}
+
+.font-custom{
+    font-family: 'MyCustomFont';
+}
